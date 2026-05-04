@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+.venv/
+env/
+ENV/
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# Pytest
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+.tox/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/
+playwright/.auth/
