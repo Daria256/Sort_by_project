@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
 
-class BasePage:
+class BasePage:пш
     def __init__(self, page: Page):
         self.page = page
         self.cookie_modal = page.locator(".amgdprcookie-modal-template")
